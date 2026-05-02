@@ -1,3 +1,6 @@
+<img width="1174" height="648" alt="Customer_Shopping_Behaviour_Dashboard" src="https://github.com/user-attachments/assets/22ec6837-5dcc-40aa-a71c-2191da31bd45" />
+
+
 # Customer_Shopping_Behaviour_Dashboard
 This project focuses on analyzing and visualizing customer shopping behavior using a complete data pipeline — from data exploration to interactive dashboarding.  I performed Exploratory Data Analysis (EDA) using Python Pandas to uncover key patterns, trends, and insights from raw customer data.
 # 🛍️ Customer Shopping Behaviour Analysis
