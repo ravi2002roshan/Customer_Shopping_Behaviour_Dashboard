@@ -3,7 +3,7 @@
 
 # Customer_Shopping_Behaviour_Dashboard
 This project focuses on analyzing and visualizing customer shopping behavior using a complete data pipeline — from data exploration to interactive dashboarding.  I performed Exploratory Data Analysis (EDA) using Python Pandas to uncover key patterns, trends, and insights from raw customer data.
-# 🛍️ Customer Shopping Behaviour Analysis
+#  Customer Shopping Behaviour Analysis
 
 
 
@@ -16,20 +16,20 @@ This project focuses on analyzing and visualizing customer shopping behavior usi
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project performs a comprehensive analysis of **customer shopping behaviour** to uncover actionable business insights. It covers the full data analysis pipeline:
 
-- 🔍 **Data Exploration** — Understanding the structure, distributions, and patterns in customer data
-- 🧹 **Data Cleaning** — Handling nulls, data types, and inconsistencies in Python
-- 🗃️ **SQL Analysis** — Writing optimized MySQL queries to answer real business questions
-- 📈 **Dashboard** — Building an interactive Power BI dashboard for stakeholder reporting
+-  **Data Exploration** — Understanding the structure, distributions, and patterns in customer data
+-  **Data Cleaning** — Handling nulls, data types, and inconsistencies in Python
+-  **SQL Analysis** — Writing optimized MySQL queries to answer real business questions
+-  **Dashboard** — Building an interactive Power BI dashboard for stakeholder reporting
 
 This project simulates a **real-world retail analytics scenario**, making it directly relevant to business intelligence and data analyst roles.
 
 ---
 
-## ❓ Key Business Questions
+##  Key Business Questions
 
 | # | Business Question |
 |---|-------------------|
@@ -42,7 +42,7 @@ This project simulates a **real-world retail analytics scenario**, making it dir
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -53,33 +53,33 @@ This project simulates a **real-world retail analytics scenario**, making it dir
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 customer-shopping-behaviour-analysis/
 │
-├── 📓 customer_shopping_behaviour.ipynb     # Python EDA & data cleaning
-├── 🗃️ customer_shopping_behaviour_analysis.sql  # All MySQL queries
-├── 📊 customer_behaviour_dashboard.pbix     # Power BI dashboard
-├── 📄 README.md                             # Project documentation
-└── 📂 dataset/
+├──  customer_shopping_behaviour.ipynb     # Python EDA & data cleaning
+├──  customer_shopping_behaviour_analysis.sql  # All MySQL queries
+├──  customer_behaviour_dashboard.pbix     # Power BI dashboard
+├──  README.md                             # Project documentation
+└──  dataset/
     └── customer_shopping_data.csv           # Raw dataset
 ```
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
-- 💰 **Revenue by Gender** — Identified which gender segment drives higher total revenue, enabling targeted marketing strategies.
-- 🏷️ **Smart Discount Users** — A segment of customers used discounts yet still exceeded the average spend — valuable for loyalty program design.
-- ⭐ **Top-Rated Products** — Highlighted the 5 highest-rated products to guide inventory and promotion decisions.
-- 🚚 **Shipping vs. Spend** — Compared average purchase amounts across shipping types, revealing customer spending behaviour by delivery preference.
-- 🔔 **Subscription Impact** — Subscribed customers showed distinct spending patterns, providing strong justification for subscription-tier marketing.
-- 🎟️ **Discount Rate by Product** — Identified which products are most frequently purchased with discounts, useful for margin analysis.
+-  **Revenue by Gender** — Identified which gender segment drives higher total revenue, enabling targeted marketing strategies.
+-  **Smart Discount Users** — A segment of customers used discounts yet still exceeded the average spend — valuable for loyalty program design.
+-  **Top-Rated Products** — Highlighted the 5 highest-rated products to guide inventory and promotion decisions.
+-  **Shipping vs. Spend** — Compared average purchase amounts across shipping types, revealing customer spending behaviour by delivery preference.
+-  **Subscription Impact** — Subscribed customers showed distinct spending patterns, providing strong justification for subscription-tier marketing.
+-  **Discount Rate by Product** — Identified which products are most frequently purchased with discounts, useful for margin analysis.
 
 ---
 
-## 🗃️ SQL Highlights
+##  SQL Highlights
 
 ### Subquery — Discount Users Above Average Spend
 ```sql
@@ -114,9 +114,9 @@ ORDER BY total_revenue DESC, avg_spend DESC;
 
 ---
 
-## 📈 Dashboard Preview
+## Dashboard Preview
 
-> 📊 The Power BI dashboard (`customer_behaviour_dashboard.pbix`) includes:
+>  The Power BI dashboard (`customer_behaviour_dashboard.pbix`) includes:
 > - Revenue breakdown by gender and subscription status
 > - Top products by rating and discount usage
 > - Shipping type vs. average spend comparison
@@ -124,7 +124,7 @@ ORDER BY total_revenue DESC, avg_spend DESC;
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### MySQL Queries
 1. Import your dataset into MySQL Workbench or any MySQL client
@@ -151,7 +151,7 @@ jupyter notebook customer_shopping_behaviour.ipynb
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains customer-level shopping transaction records with the following key fields:
 
@@ -168,12 +168,12 @@ The dataset contains customer-level shopping transaction records with the follow
 
 ---
 
-## 🤝 Connect with Me
+## Connect with Me
 
 If you found this project useful or have any feedback, feel free to connect!
 
-[![LinkedIn](https://www.linkedin.com/in/ravi-roshan-710105347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+[![LinkedIn](https://www.linkedin.com/in/ravi-roshan-710105347)
 
 ---
 
-⭐ **If you found this project helpful, please give it a star!** It motivates me to build more projects like this.
+ **If you found this project helpful, please give it a star!** It motivates me to build more projects like this.
